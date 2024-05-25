@@ -32,6 +32,7 @@ export const HeroSlider = () => {
 	return (
 		<>
 			<Swiper
+				className={cls.Sw}
 				ref={sliderRef}
 				slidesPerView={1}
 				effect={'creative'}
